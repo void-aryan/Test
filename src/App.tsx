@@ -1,77 +1,114 @@
 import { useState, useRef } from 'react';
 import { PlayIcon, PauseIcon, BackwardIcon, ForwardIcon, SpeakerWaveIcon } from '@heroicons/react/24/solid';
 const songs = [
+  [
   {
     id: 1,
-    title: "Summer Vibes",
-    artist: "Beach Wave",
-    cover: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=500&h=500&fit=crop",
+    title: "ADDICTED TO YOU",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=500&h=500&fit=crop",
     audio: "/music/song1.mp3"
   },
   {
     id: 2,
-    title: "Mountain Echo",
-    artist: "Nature Sound",
-    cover: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=500&h=500&fit=crop",
+    title: "Avenir Radieux",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1499084732479-de2c02d45fc4?w=500&h=500&fit=crop",
     audio: "/music/song2.mp3"
   },
   {
     id: 3,
-    title: "Urban Night",
-    artist: "City Lights",
-    cover: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+    title: "Resilience in Shadows",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1477965559563-8b2c248b8818?w=500&h=500&fit=crop",
     audio: "/music/song3.mp3"
   },
   {
     id: 4,
-    title: "Sunset Dreams",
-    artist: "Ocean Waves",
-    cover: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&h=500&fit=crop",
+    title: "Rising from Doubt",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=500&h=500&fit=crop",
     audio: "/music/song4.mp3"
   },
   {
     id: 5,
-    title: "Forest Rain",
-    artist: "Green Nature",
-    cover: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500&h=500&fit=crop",
+    title: "Awakening in Light",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1542144612-1d2434d0f5b4?w=500&h=500&fit=crop",
     audio: "/music/song5.mp3"
   },
   {
     id: 6,
-    title: "Desert Dunes",
-    artist: "Sahara Echo",
-    cover: "https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=500&h=500&fit=crop",
+    title: "Chasing Tomorrow",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=500&h=500&fit=crop",
     audio: "/music/song6.mp3"
   },
   {
     id: 7,
-    title: "Morning Breeze",
-    artist: "Fresh Start",
-    cover: "https://images.unsplash.com/photo-1533682328386-1c6e80dbda97?w=500&h=500&fit=crop",
+    title: "Chasing Cosmic Dreams",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1495553198984-72e8369063f8?w=500&h=500&fit=crop",
     audio: "/music/song7.mp3"
   },
   {
     id: 8,
-    title: "Deep Space",
-    artist: "Cosmic Sound",
-    cover: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&h=500&fit=crop",
+    title: "Un Soutien Éternel remix v1",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1533577116850-9cc66cad8a9b?w=500&h=500&fit=crop",
     audio: "/music/song8.mp3"
   },
   {
     id: 9,
-    title: "Tranquil Waters",
-    artist: "Serene Melody",
-    cover: "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500&h=500&fit=crop",
+    title: "Un Soutien Éternel remix v2",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1506765515384-028b60a970df?w=500&h=500&fit=crop",
     audio: "/music/song9.mp3"
   },
   {
     id: 10,
-    title: "Crystal Night",
-    artist: "Starlight Sounds",
-    cover: "https://images.unsplash.com/photo-1517991104123-1d69bc80e5c4?w=500&h=500&fit=crop",
+    title: "Eternal Light",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1543163521-1b11841d9c8e?w=500&h=500&fit=crop",
     audio: "/music/song10.mp3"
+  },
+  {
+    id: 11,
+    title: "Un Soutien Éternel",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=500&h=500&fit=crop",
+    audio: "/music/song11.mp3"
+  },
+  {
+    id: 12,
+    title: "In Memoriam",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=500&h=500&fit=crop",
+    audio: "/music/song12.mp3"
+  },
+  {
+    id: 13,
+    title: "Étoile des Innovations",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?w=500&h=500&fit=crop",
+    audio: "/music/song13.mp3"
+  },
+  {
+    id: 14,
+    title: "Rêves de Technologie",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=500&h=500&fit=crop",
+    audio: "/music/song14.mp3"
+  },
+  {
+    id: 15,
+    title: "Echoes of Metoushela",
+    artist: "Metoushela",
+    cover: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=500&h=500&fit=crop",
+    audio: "/music/song15.mp3"
   }
 ];
+
 
 
 export default function Home() {
@@ -106,12 +143,12 @@ export default function Home() {
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
-              MusicFlow
+              M.MUSIQUE 
             </h1>
             <div className="space-x-6">
               <a href="#" className="hover:text-purple-400 transition-colors">Accueil</a>
-              <a href="#" className="hover:text-purple-400 transition-colors">Bibliothèque</a>
-              <a href="#" className="hover:text-purple-400 transition-colors">Playlist</a>
+              <a href="https://facebook.com/MetoushelaWalker" className="hover:text-purple-400 transition-colors">contact</a>
+              <a href="https://metoushela-portfolio.vercel.app" className="hover:text-purple-400 transition-colors">Portfolio</a>
             </div>
           </div>
         </nav>
@@ -206,12 +243,12 @@ export default function Home() {
       <footer className="fixed bottom-20 w-full bg-black/30 backdrop-blur-lg">
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <p className="text-sm text-gray-400">© 2024 MusicFlow. Tous droits réservés.</p>
+            <p className="text-sm text-gray-400">© 2025 Metoushela. Tous droits réservés.</p>
             <div className="space-x-4">
-              <a href="#" className="text-sm hover:text-purple-400 transition-colors">
+              <a href="https://www.google.com/search?q=politique+de+confidentialit%C3%A9&oq=politique+de+c&gs_lcrp=EgZjaHJvbWUqBwgEEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABDIHCAoQABiABDIHCAsQABiABDIHCAwQABiABDIHCA0QABiABDIHCA4QABiABNIBCDc5MTdqMGoxqAIAsAIA&sourceid=chrome-mobile&ie=UTF-8" className="text-sm hover:text-purple-400 transition-colors">
                 Politique de confidentialité
               </a>
-              <a href="#" className="text-sm hover:text-purple-400 transition-colors">
+              <a href="https://www.google.com/search?q=conditions+d%27utilisation+&sca_esv=07057cd0c5299605&sxsrf=AHTn8zohQgq7ZOaCWxSexkIWBgou_380oQ%3A1737721851453&ei=-4eTZ5ikG5ivhbIPvKrYwAo&oq=conditions+d%27utilisation+&gs_lp=EhNtb2JpbGUtZ3dzLXdpei1zZXJwIhljb25kaXRpb25zIGQndXRpbGlzYXRpb24gMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIoFxQow5Y6k9wAngBkAEEmAGABKAB2y-qAQgzLTIuMTEuMbgBA8gBAPgBAZgCDKAC-iOoAg_CAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICBxAjGCcY6gLCAgoQIxjwBRgnGOoCwgIKECMYgAQYJxiKBcICChAAGIAEGEMYigXCAhAQABiABBixAxhDGIMBGIoFwgIKEC4YgAQYQxiKBcICEBAuGIAEGNEDGMcBGCcYigXCAg4QABiABBixAxiDARiKBcICDhAuGIAEGLEDGIMBGIoFwgISEAAYgAQYQxiKBRhGGPkBGKMFwgILEC4YgAQYsQMYgwHCAggQABiABBixA8ICFRAAGIAEGEMYigUYRhj5ARiMBdgBAcICCxAAGIAEGLEDGIMBwgIFEC4YgASYAyjxBRRt6cMN9y86iAYBkAYRugYECAEYE5IHBjIuNC0xMKAH4mM&sclient=mobile-gws-wiz-serp" className="text-sm hover:text-purple-400 transition-colors">
                 Conditions d'utilisation
               </a>
             </div>
@@ -220,4 +257,5 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+      }
+    
