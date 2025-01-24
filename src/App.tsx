@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import { PlayIcon, PauseIcon, BackwardIcon, ForwardIcon, SpeakerWaveIcon } from '@heroicons/react/24/solid';
 const songs = [
-  [
+  
   {
     id: 1,
     title: "ADDICTED TO YOU",
