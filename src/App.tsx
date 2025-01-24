@@ -1,6 +1,5 @@
 import { useState, useRef } from 'react';
 import { PlayIcon, PauseIcon, BackwardIcon, ForwardIcon, SpeakerWaveIcon } from '@heroicons/react/24/solid';
-
 const songs = [
   {
     id: 1,
@@ -36,8 +35,44 @@ const songs = [
     artist: "Green Nature",
     cover: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500&h=500&fit=crop",
     audio: "/music/song5.mp3"
+  },
+  {
+    id: 6,
+    title: "Desert Dunes",
+    artist: "Sahara Echo",
+    cover: "https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=500&h=500&fit=crop",
+    audio: "/music/song6.mp3"
+  },
+  {
+    id: 7,
+    title: "Morning Breeze",
+    artist: "Fresh Start",
+    cover: "https://images.unsplash.com/photo-1533682328386-1c6e80dbda97?w=500&h=500&fit=crop",
+    audio: "/music/song7.mp3"
+  },
+  {
+    id: 8,
+    title: "Deep Space",
+    artist: "Cosmic Sound",
+    cover: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&h=500&fit=crop",
+    audio: "/music/song8.mp3"
+  },
+  {
+    id: 9,
+    title: "Tranquil Waters",
+    artist: "Serene Melody",
+    cover: "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=500&h=500&fit=crop",
+    audio: "/music/song9.mp3"
+  },
+  {
+    id: 10,
+    title: "Crystal Night",
+    artist: "Starlight Sounds",
+    cover: "https://images.unsplash.com/photo-1517991104123-1d69bc80e5c4?w=500&h=500&fit=crop",
+    audio: "/music/song10.mp3"
   }
 ];
+
 
 export default function Home() {
   const [isPlaying, setIsPlaying] = useState(false);
