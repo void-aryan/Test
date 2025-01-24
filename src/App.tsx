@@ -13,14 +13,14 @@ const songs = [
     id: 2,
     title: "Avenir Radieux",
     artist: "Metoushela",
-    cover: "https://images.unsplash.com/photo-1499084732479-de2c02d45fc4?w=500&h=500&fit=crop",
+    cover: "https://unsplash.com/fr/photos/femme-allongee-sur-le-lit-pres-de-la-radio-grise-8e0EHPUx3Mo",
     audio: "/music/song2.mp3"
   },
   {
     id: 3,
     title: "Resilience in Shadows",
     artist: "Metoushela",
-    cover: "https://images.unsplash.com/photo-1477965559563-8b2c248b8818?w=500&h=500&fit=crop",
+    cover: "https://unsplash.com/fr/photos/homme-en-chemise-a-carreaux-vert-et-noir-portant-des-ecouteurs-noirs-et-blancs-5OMff2RDqPs",
     audio: "/music/song3.mp3"
   },
   {
@@ -34,7 +34,7 @@ const songs = [
     id: 5,
     title: "Awakening in Light",
     artist: "Metoushela",
-    cover: "https://images.unsplash.com/photo-1542144612-1d2434d0f5b4?w=500&h=500&fit=crop",
+    cover: "https://unsplash.com/fr/photos/visage-de-la-femme-A2fOLXgIe6k",
     audio: "/music/song5.mp3"
   },
   {
