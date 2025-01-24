@@ -13,14 +13,14 @@ const songs = [
     id: 2,
     title: "Avenir Radieux",
     artist: "Metoushela",
-    cover: "a.png,
+    cover: "image/a.png,
     audio: "/music/song2.mp3"
   },
   {
     id: 3,
     title: "Resilience in Shadows",
     artist: "Metoushela",
-    cover: "megan.jpg",
+    cover: "image/megan.jpg",
     audio: "/music/song3.mp3"
   },
   {
