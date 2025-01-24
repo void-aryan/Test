@@ -13,7 +13,7 @@ const songs = [
     id: 2,
     title: "Avenir Radieux",
     artist: "Metoushela",
-    cover: "https://images.unsplash.com/photo-1614149162883-504ce4d13909,
+    cover: "https://images.unsplash.com/photo-1614149162883-504ce4d13909",
     audio: "/music/song2.mp3"
   },
   {
