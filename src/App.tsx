@@ -13,14 +13,14 @@ const songs = [
     id: 2,
     title: "Avenir Radieux",
     artist: "Metoushela",
-    cover: "image/a.png,
+    cover: "https://images.unsplash.com/photo-1614149162883-504ce4d13909,
     audio: "/music/song2.mp3"
   },
   {
     id: 3,
     title: "Resilience in Shadows",
     artist: "Metoushela",
-    cover: "image/megan.jpg",
+    cover: "https://images.unsplash.com/photo-1513829596324-4bb2800c5efb?w=500&h=500&fit=crop",
     audio: "/music/song3.mp3"
   },
   {
@@ -34,7 +34,7 @@ const songs = [
     id: 5,
     title: "Awakening in Light",
     artist: "Metoushela",
-    cover: "https://unsplash.com/fr/photos/visage-de-la-femme-A2fOLXgIe6k",
+    cover: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&h=500&fit=crop",
     audio: "/music/song5.mp3"
   },
   {
@@ -48,7 +48,7 @@ const songs = [
     id: 7,
     title: "Chasing Cosmic Dreams",
     artist: "Metoushela",
-    cover: "https://images.unsplash.com/photo-1495553198984-72e8369063f8?w=500&h=500&fit=crop",
+    cover: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500&h=500&fit=crop",
     audio: "/music/song7.mp3"
   },
   {
@@ -69,7 +69,7 @@ const songs = [
     id: 10,
     title: "Eternal Light",
     artist: "Metoushela",
-    cover: "https://images.unsplash.com/photo-1543163521-1b11841d9c8e?w=500&h=500&fit=crop",
+    cover: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=500&h=500&fit=crop",
     audio: "/music/song10.mp3"
   },
   {
