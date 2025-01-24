@@ -13,14 +13,14 @@ const songs = [
     id: 2,
     title: "Avenir Radieux",
     artist: "Metoushela",
-    cover: "https://unsplash.com/fr/photos/femme-allongee-sur-le-lit-pres-de-la-radio-grise-8e0EHPUx3Mo",
+    cover: "a.png,
     audio: "/music/song2.mp3"
   },
   {
     id: 3,
     title: "Resilience in Shadows",
     artist: "Metoushela",
-    cover: "https://unsplash.com/fr/photos/homme-en-chemise-a-carreaux-vert-et-noir-portant-des-ecouteurs-noirs-et-blancs-5OMff2RDqPs",
+    cover: "megan.jpg",
     audio: "/music/song3.mp3"
   },
   {
