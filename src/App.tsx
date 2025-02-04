@@ -9,6 +9,13 @@ const songs = [
     cover: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=500&h=500&fit=crop",
     audio: "/music/song1.mp3"
   },
+    {
+    id: 1,
+    title: "yeah",
+    artist: "Metoushela",
+    cover: "images/img1.jpg",
+    audio: "/music/song1.mp3"
+  },
   {
     id: 2,
     title: "Avenir Radieux",
