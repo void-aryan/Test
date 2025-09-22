@@ -5,63 +5,63 @@ const songs = [
   {
     id: 1,
     title: "ADDICTED TO YOU",
-    artist: "Metoushela",
+    artist: "Void ten",
     cover: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=500&h=500&fit=crop",
     audio: "/music/song1.mp3"
   },
     {
     id: 1,
     title: "yeah",
-    artist: "Metoushela",
+    artist: "Void ten",
     cover: "images/img1.jpg",
     audio: "/music/song1.mp3"
   },
   {
     id: 2,
     title: "Avenir Radieux",
-    artist: "Metoushela",
+    artist: "Void ten",
     cover: "https://images.unsplash.com/photo-1614149162883-504ce4d13909",
     audio: "/music/song2.mp3"
   },
   {
     id: 3,
     title: "Resilience in Shadows",
-    artist: "Metoushela",
+    artist: "Void ten",
     cover: "https://images.unsplash.com/photo-1513829596324-4bb2800c5efb?w=500&h=500&fit=crop",
     audio: "/music/song3.mp3"
   },
   {
     id: 4,
     title: "Rising from Doubt",
-    artist: "Metoushela",
+    artist: "Void ten",
     cover: "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=500&h=500&fit=crop",
     audio: "/music/song4.mp3"
   },
   {
     id: 5,
     title: "Awakening in Light",
-    artist: "Metoushela",
+    artist: "void ten",
     cover: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&h=500&fit=crop",
     audio: "/music/song5.mp3"
   },
   {
     id: 6,
     title: "Chasing Tomorrow",
-    artist: "Metoushela",
+    artist: "void ten",
     cover: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=500&h=500&fit=crop",
     audio: "/music/song6.mp3"
   },
   {
     id: 7,
     title: "Chasing Cosmic Dreams",
-    artist: "Metoushela",
+    artist: "void ten",
     cover: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500&h=500&fit=crop",
     audio: "/music/song7.mp3"
   },
   {
     id: 8,
     title: "Un Soutien Éternel remix v1",
-    artist: "Metoushela",
+    artist: "void ten",
     cover: "https://images.unsplash.com/photo-1533577116850-9cc66cad8a9b?w=500&h=500&fit=crop",
     audio: "/music/song8.mp3"
   },
@@ -75,42 +75,42 @@ const songs = [
   {
     id: 10,
     title: "Eternal Light",
-    artist: "Metoushela",
+    artist: "Void ten",
     cover: "https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=500&h=500&fit=crop",
     audio: "/music/song10.mp3"
   },
   {
     id: 11,
     title: "Un Soutien Éternel",
-    artist: "Metoushela",
+    artist: "void ten",
     cover: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=500&h=500&fit=crop",
     audio: "/music/song11.mp3"
   },
   {
     id: 12,
     title: "In Memoriam",
-    artist: "Metoushela",
+    artist: "Void ten",
     cover: "https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=500&h=500&fit=crop",
     audio: "/music/song12.mp3"
   },
   {
     id: 13,
     title: "Étoile des Innovations",
-    artist: "Metoushela",
+    artist: "void ten",
     cover: "https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?w=500&h=500&fit=crop",
     audio: "/music/song13.mp3"
   },
   {
     id: 14,
     title: "Rêves de Technologie",
-    artist: "Metoushela",
+    artist: "Void ten",
     cover: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=500&h=500&fit=crop",
     audio: "/music/song14.mp3"
   },
   {
     id: 15,
     title: "Echoes of Metoushela",
-    artist: "Metoushela",
+    artist: "Void ten",
     cover: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=500&h=500&fit=crop",
     audio: "/music/song15.mp3"
   }
